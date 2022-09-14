@@ -1,6 +1,6 @@
-This is an system image for Klipper, Mainsail & Fluidd for the Bananpi M2 Zero.<br>
+This is an system image for Klipper, Mainsail & Fluidd for the [Bananpi M2 Zero](https://wiki.banana-pi.org/Banana_Pi_BPI-M2_ZERO).<br>
 Ensure you BananPi has an [external 2.4gHz uFL wifi antena](https://thepihut.com/products/2-4ghz-mini-flexible-wifi-antenna-with-ufl-connector) and a [heatsink](https://thepihut.com/products/raspberry-pi-heatsink), (they get hot).
-### Note:  BananaPi does not work with 3.5 Inch touchscreen, and can only be controlled by Klipper web interface.
+### Note:  BananaPi M2 Zero does not work with 3.5 Inch touchscreen, and can only be controlled by Klipper web interface.
 
 
 ## Easy Setup
