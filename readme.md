@@ -4,7 +4,7 @@ Ensure you BananaPi has an [external 2.4GHz uFL wifi antena](https://thepihut.co
 
 
 ## Easy Setup
-1) Download [RPi Imager](https://downloads.raspberrypi.org/imager/imager_latest.exe) & the .img file from this repo.
+1) Download [RPi Imager](https://downloads.raspberrypi.org/imager/imager_latest.exe) & the [.img file from HERE](https://www.dropbox.com/s/jpkm9mvmaxfamzs/BPIM2Zero_Klipper_Moonraker_Fluidd.img?dl=0).
    
 2) Plug in your SD card into your pc, and launch RPi Imager.<br>
 Operating System: custom => BPIM2Zero_Klipper_Moonraker_Fluidd.img file<br>
