@@ -34,7 +34,8 @@ curl https://raw.githubusercontent.com/FramingApp/BananaPi-Wifi-Positron-Armbian
 
 <br>
 Connect via the hotspot or the native Wifi, and go to [positron.local/](positron.local/)
-
+<br><br>
+In the Klipper printer.cfg, set the [MCU serial](https://www.klipper3d.org/Config_Reference.html#mcu) to "`/dev/ttyS3`"
 <br>
 <br>
 <br>
@@ -53,3 +54,5 @@ Connect via the hotspot or the native Wifi, and go to [positron.local/](positron
 2) Follow https://blog.jaimyn.dev/connect-armbian-orange-pi-without-ip/ to setup wifi access from mDNS, ie. hostname.local
 
 3) Then I forked and modified this script https://github.com/lukicdarkoo/rpi-wifi into https://github.com/FramingApp/BananaPi-Wifi-Positron-Armbian to create the Wifi AP/Hotspot.
+
+4) To find the serial port run "`dmesg | grep -E 'uart|serial'`" and find the ttySX port with the `MMIO 0x1c28c00`. Then set this in the printer.cfg in Klipper.
