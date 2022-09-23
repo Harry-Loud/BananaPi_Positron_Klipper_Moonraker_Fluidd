@@ -54,4 +54,4 @@ In the Klipper printer.cfg, set the [MCU serial](https://www.klipper3d.org/Confi
 
 3) Then I forked and modified this script https://github.com/lukicdarkoo/rpi-wifi into https://github.com/FramingApp/BananaPi-Wifi-Positron-Armbian to create the Wifi AP/Hotspot.
 
-4) To find the serial port run "`dmesg | grep -E 'uart|serial'`" and find the ttySX port with the `MMIO 0x1c28c00`. Then set this in the printer.cfg in Klipper.
+4) To find the serial port run "`dmesg | grep -E 'uart|serial'`" and find the ttySX port with `MMIO 0x1c28c00`. Then set this in the printer.cfg in Klipper.
