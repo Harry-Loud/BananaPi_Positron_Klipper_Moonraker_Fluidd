@@ -32,9 +32,8 @@ curl https://raw.githubusercontent.com/FramingApp/BananaPi-Wifi-Positron-Armbian
 
 9) you should be greeted by "`Wifi configuration is finished! Please reboot your Banana Pi to apply changes...`", if so, all has worked. Restart and now your BananaPi is ready to go.
 
-<br>
-Connect via the hotspot or the native Wifi, and go to [positron.local/](positron.local/)
-<br><br>
+
+10) Connect via the hotspot or the native Wifi, and go to [positron.local/](positron.local/) .<br>
 In the Klipper printer.cfg, set the [MCU serial](https://www.klipper3d.org/Config_Reference.html#mcu) to "`/dev/ttyS3`"
 <br>
 <br>
