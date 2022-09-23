@@ -34,7 +34,9 @@ curl https://raw.githubusercontent.com/FramingApp/BananaPi-Wifi-Positron-Armbian
 
 
 10) Connect via the hotspot or the native Wifi, and go to [positron.local/](positron.local/) .<br>
-In the Klipper printer.cfg, set the [MCU serial](https://www.klipper3d.org/Config_Reference.html#mcu) to "`/dev/ttyS3`"
+[Flash](https://youtu.be/YA3_YZjOq-A?t=859) your [SKR Pico](https://github.com/bigtreetech/SKR-Pico/blob/master/BTT%20SKR%20Pico%20V1.0%20Instruction%20Manual.pdf) or other controller board.  *[Helpfull Guide](https://www.makenprint.uk/3d-printing/3d-firmware-guides/klipper/compiling-klipper-firmware/)*<br>
+Connect via pin 8,10 UART to controller board.<br>
+In the Klipper printer.cfg, set the [MCU serial](https://www.klipper3d.org/Config_Reference.html#mcu) to "`/dev/ttyS3`".
 <br>
 <br>
 <br>
