@@ -35,6 +35,7 @@ curl https://raw.githubusercontent.com/FramingApp/BananaPi-Wifi-Positron-Armbian
 
 after make etc https://www.makenprint.uk/3d-printing/3d-firmware-guides/klipper/compiling-klipper-firmware/
 `sudo scp positron@192.168.0.143:/home/positron/klipper/out/klipper.uf2 /home/positron/klipper_config/klipper.uf2` to copy file
+
 turn on uart 3
 https://forum.banana-pi.org/t/bpi-m2-zero-standard-serial-communication/11235/4
 then 
